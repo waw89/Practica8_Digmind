@@ -55,15 +55,12 @@ class HomeFragment : Fragment() {
     }
 
     fun fillTask(){
-        tasks.add(Task("Practice 1", arrayListOf("Monday, Sunday"), "17:30"))
-        tasks.add(Task("Practice 2", arrayListOf("Monday"), "17:00"))
-        tasks.add(Task("Practice 3", arrayListOf("Monday, Tuesday"), "21:30"))
-        tasks.add(Task("Practice 4", arrayListOf("Wednesday"), "21:00"))
-        tasks.add(Task("Practice 5", arrayListOf("Friday"), "14:30"))
-        tasks.add(Task("Practice 6", arrayListOf("Monday, Thursday"), "11:11"))
-        tasks.add(Task("Practice 7", arrayListOf("Friday, Saturday"), "00:00"))
-
-
+        tasks.add(Task("Tarea de matemáticas", arrayListOf("Monday, Sunday"), "17:30"))
+        tasks.add(Task("Estudiar ingles", arrayListOf("Monday"), "17:00"))
+        tasks.add(Task("Tocar guitarra", arrayListOf("Monday, Tuesday"), "21:30"))
+        tasks.add(Task("Programar", arrayListOf("Wednesday"), "21:00"))
+        tasks.add(Task("Tocar guitarra", arrayListOf("Monday, Tuesday"), "21:30"))
+        tasks.add(Task("Programar", arrayListOf("Wednesday"), "21:00"))
     }
 
     private class TaskAdapter: BaseAdapter{
