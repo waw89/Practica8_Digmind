@@ -51,8 +51,8 @@
 
              <TableLayout
                  android:layout_width="match_parent"
-                 android:layout_marginLeft="140dp"
-                 android:layout_marginRight="140dp"
+                 android:layout_marginLeft="60dp"
+                 android:layout_marginRight="60dp"
                  android:stretchColumns="0"
                  android:layout_marginTop="20dp"
                  android:layout_height="wrap_content">
@@ -170,15 +170,19 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="text"
-                android:id="@+id/time"/>
+                android:id="@+id/time"
+
+                />
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:background="@color/dusty_rose"
                 android:text="@string/done"
-                android:layout_gravity="center"
-                />
+                android:id="@+id/btnDone"
+
+                android:textColor="#263238"/>
         </LinearLayout>
 
 
