@@ -35,12 +35,12 @@ class DashboardFragment : Fragment() {
         val root: View = binding.root
 
 
-        val btn_save: Button = root.findViewById(R.id.btnDone)
+        val btn_save: Button = root.findViewById(R.id.done)
         val et_title: EditText = root.findViewById(R.id.name)
         val et_time: EditText = root.findViewById(R.id.time)
         val checkMonday: CheckBox = root.findViewById(R.id.mondayCheck)
-        val checkTuesday: CheckBox = root.findViewById(R.id.tuesday)
-        val checkWednesday: CheckBox = root.findViewById(R.id.wednesdayCehck)
+        val checkTuesday: CheckBox = root.findViewById(R.id.tuesdayCheck)
+        val checkWednesday: CheckBox = root.findViewById(R.id.wednesdayCheck)
         val checkThursday: CheckBox = root.findViewById(R.id.thursdayCheck)
         val checkFriday: CheckBox = root.findViewById(R.id.fridayCheck)
         val checkSaturday: CheckBox = root.findViewById(R.id.saturdayCheck)
@@ -76,7 +76,7 @@ class DashboardFragment : Fragment() {
 
             HomeFragment.tasks.add(task)
 
-            Toast.makeText(root.context, "New Task Added!", Toast.LENGTH_SHORT).show()
+            Toast.makeText(root.context, "New task added!", Toast.LENGTH_SHORT).show()
 
 
         }
